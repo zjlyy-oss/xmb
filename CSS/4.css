@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#999;
+
+	}
+.oo{
+	width:1100px;
+	height:100%;
+	margin:0 auto;
+	padding:0 auto;
+}
+.ll{
+	height:50px;
+}
+.aa{
+	width:1100px;
+	height:50px;
+}
+.bb{
+	width:1100px;
+	height:60px;
+	
+}
+.dd{
+	width:1100px;
+	height:100%;
+}
+.dd table tr{
+	text-align:center;
+}
+.xx{
+	width:1100px;
+	height:40px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.rr{
+	width:1100px;
+	height:50px;
+	margin:0 auto;
+	padding:0 auto;
+}	
+.ww{
+	width:1100px;
+	height:100px;
+	margin:0 auto;
+	padding:0 auto;
+}	
+.tt{
+	width:1100px;
+	height:100%;
+	margin:0 auto;
+	padding:0 auto;
+}
+.yy{
+	width:1100px;
+	height:100%;
+}
+.yy img{
+	width:400px;
+	height:196px;
+	float:left;
+	padding:10px 10px;
+	}
+.qw{height:40px;}	
+.pp{
+	width:1100px;
+	height:100%;
+	margin:o auto;
+	padding:0 auto;
+}
+.pp{
+	width:1100px;
+	height:100%;
+	margin:0 auto;
+	padding:0 auto;
+}
+.gt img{
+	width:400px;
+	height:300px;
+	float:right;
+	padding:10px 10px;
+}
+.jl{
+	width:1100px;
+	height:60px;
+	margin:0 auto;
+	padding:0 auto;
+	text-align:center;
+}
+.kh{height:40px;}
+.cc table tr{
+	text-align:center;
+}
+.vv{
+	width:1100px;
+	height:20px;
+}

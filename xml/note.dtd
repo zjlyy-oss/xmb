@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT note (xy)>
+<!ELEMENT xy (to,from,heading,body,lastname,xinzhi,wang,phone)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT xinzhi (#PCDATA)>
+<!ELEMENT wang (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>

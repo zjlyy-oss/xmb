@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>图片轮播</title>
+
+<link rel="stylesheet" href="../jiaoben5356/css/shutter.css">
+
+</head>
+<body>
+
+<div class="shutter">
+<div class="shutter-img">
+  <a href="#" data-shutter-title="兰博基尼荧光特效"><img src="images1/2937563478916.jpg" alt="#"></a>
+  <a href="#" data-shutter-title="兰博基尼黑色诱惑"><img src="images1/09273156on5isk6z0esej6.jpg" alt="#"></a>
+  <a href="#" data-shutter-title="兰博基尼迷之烟霾"><img src="images1/t015deab5c541100e2c.jpg" alt="#"></a>
+   <a href="#" data-shutter-title="大黄蜂"><img src="images1/12141508537834vmimf7kl4.jpg"></a>
+   
+   </a>
+</div>
+<ul class="shutter-btn">
+  <li class="prev"></li>
+  <li class="next"></li>
+</ul>
+<div class="shutter-desc">
+  <p>Iron Man</p>
+</div>
+</div>
+
+<script src="../jiaoben5356/js/jquery.min.js"></script>
+<script src="../jiaoben5356/js/velocity.js"></script>
+<script src="../jiaoben5356/js/shutter.js"></script>
+<script>
+$(function () {
+  $('.shutter').shutter({
+	shutterW: 1000, // 容器宽度
+	shutterH: 358, // 容器高度
+	isAutoPlay: true, // 是否自动播放
+	playInterval: 6000, // 自动播放时间
+	curDisplay: 3, // 当前显示页
+	fullPage: false // 是否全屏展示
+  });
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>基本信息</title>
+<link rel="stylesheet" href="../CSS/note.css">
+	<script type="text/javascript">
+		function parseXML(){
+			try{
+				xmlDoc= new ActiveXObject("Microsoft.XMLDOM");
+			}catch(e){
+				try{
+					xmlDoc= document.implementation.createDocument("","",null);
+				}catch(e){
+					alert(e.message);
+					return;
+				}
+			}
+			xmlDoc.async = false;
+			xmlDoc.load("note.xml");
+			document.getElementById("to").innerHTML=xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
+			document.getElementById("from").innerHTML=xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+			document.getElementById("heading").innerHTML=xmlDoc.getElementsByTagName("heading")[0].childNodes[0].nodeValue;
+			document.getElementById("message").innerHTML=xmlDoc.getElementsByTagName("body")[0].childNodes[0].nodeValue;
+			document.getElementById("lastname").innerHTML=xmlDoc.getElementsByTagName("lastname")[0].childNodes[0].nodeValue;
+			document.getElementById("xinzhi").innerHTML=xmlDoc.getElementsByTagName("xinzhi")[0].childNodes[0].nodeValue;
+			document.getElementById("wang").innerHTML=xmlDoc.getElementsByTagName("wang")[0].childNodes[0].nodeValue;
+			document.getElementById("phone").innerHTML=xmlDoc.getElementsByTagName("phone")[0].childNodes[0].nodeValue;
+		}
+	</script>
+</head>
+<body onLoad="parseXML()">
+	<div class="header"><font size="+1"><a href="../index1.html"><font color="#070CF7">主页</font></a>/基本信息/<a href="../index/1.html">公司简介</a>/<a href="../index/2.html">品牌简介</a>/<a href="../index/3.html">创始人</a>/<a href="../index/4.html">车型简介</a>/<a href="../index/5.html">相关产品</a></font>
+</div>
+    <h1 style=" margin-left:50px; margin-top:50px;font-family:'华文宋体'">Lamborghini基本信息</h1>
+	<h3 class="h3">
+	<b>公司名称： </b><span id="to"></span><br/>
+	<b>外文名称： </b><span id="from"></span><br/>
+	<b>总部地点：</b><span id="heading"></span><br/>
+	<b>成立时间：</b><span id="message"></span><br/>
+    <b>经营范围：</b><span id="lastname"></span><br/>
+    <b>公司性质：</b><span id="xinzhi"></span><br/>
+    <b>官方网站： </b><a href="www.lamborghini.com"><span id="wang"></span></a><br/>
+    <b>客服电话: </b><span id="phone"></span>
+	</h3>
+</body>
+</html>

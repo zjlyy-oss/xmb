@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(../images/1433223.jpg);}
+	.header{
+		transform:translate(40px,20px);
+		}
+		.h3 b{
+			color:#F00;
+			}
+			.h3 span{
+				color:#FC3;}

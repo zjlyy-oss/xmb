@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>主页</title>
+
+<link type="text/css" rel="stylesheet"href="CSS/index1.css">
+<link rel="stylesheet" href="CSS/shutter.css">
+
+</head>
+
+<body>
+<div class="container">
+<div class="vgy">&nbsp;</div>
+<div class="header">
+<div class="logo"><img src="images/Redocn_2012030309352483.jpg" width="261" height="89"></div>
+
+<div class="select"><select name="" class="sel">
+<option value="" selected>简体中文</option>
+<option value="">繁体中文</option>
+<option value="">English</option>
+</select>
+</div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="xml/note.html">基本信息</a></li>
+<li><a href="index/1.html">公司简介</a></li>
+<li><a href="index/2.html">品牌简介</a></li>
+<li><a href="index/3.html">创始人</a></li>
+<li><a href="index/4.html">车型简介</a></li>
+<li><a href="index/5.html">相关产品</a></li>
+</ul>
+</div>
+
+
+
+
+<div class="shutter">
+<div class="shutter-img">
+  <a href="#" data-shutter-title="兰博基尼荧光特效"><img src="images1/2937563478916.jpg" alt="#"></a>
+  <a href="#" data-shutter-title="兰博基尼黑色诱惑"><img src="images1/09273156on5isk6z0esej6.jpg" alt="#"></a>
+  <a href="#" data-shutter-title="兰博基尼迷之烟霾"><img src="images1/t015deab5c541100e2c.jpg" alt="#"></a>
+   <a href="#" data-shutter-title="大黄蜂"><img src="images1/12141508537834vmimf7kl4.jpg"></a>
+   
+   </a>
+</div>
+<ul class="shutter-btn">
+  <li class="prev"></li>
+  <li class="next"></li>
+</ul>
+<div class="shutter-desc">
+  <p>Iron Man</p>
+</div>
+</div>
+
+
+<script src="JS/jquery.min.js"></script>
+<script src="JS/shutter.js"></script>
+<script src="JS/velocity.js"></script>
+<script>
+$(function () {
+  $('.shutter').shutter({
+	shutterW: 1000, // 容器宽度
+	shutterH: 358, // 容器高度
+	isAutoPlay: true, // 是否自动播放
+	playInterval: 1000, // 自动播放时间
+	curDisplay: 3, // 当前显示页
+	fullPage: false // 是否全屏展示
+  });
+});
+</script>
+
+
+<div class="main">
+<div class="left">
+<h1>品牌理念</h1>
+<hr width="657px" size="2" color="#000000">
+<img src="images/Img340289487.jpg">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为全球顶级跑车制造商及欧洲奢侈品标志之一，拥有霸气的外表，兰博基尼一贯秉承将极致速度与时尚风格融为一体的品牌理念，不断创新并寻求全新品牌突破。此次涉足时装领域，将为兰博基尼品牌拥趸者提供更加丰富多彩的品牌产品选择。兰博基尼（Lamborghini），又被翻译作朗博基尼，林保坚尼。在意大利乃至全世界，兰博基尼是诡异的，它神秘地诞生，出人意料地推出一款又一款的让人咋舌的超级跑车。</p>
+</div>
+
+<div class="right">
+<h2>相关产品</h2>
+<hr width="288px" size="2" color="#000000">
+
+<ul>
+<li>服饰</li>
+<li>自行车</li>
+<li>电脑</li>
+<li>手机</li>
+</ul>
+</div>
+</div>
+
+<div class="footer"><hr width="1100px" size="2" color="#000000"><p>©2017 年兰博基尼汽车有限公司版权所有。兰博基尼汽车有限公司是一家隶属奥迪集团的单一股东公司。保留所有权利。增值税号码：IT 00591801204&nbsp;
+津ICP备15001327号 logo ICP京公网安备 11010502032604号</p>
+</div>
+</div>
+
+</body>
+</html>

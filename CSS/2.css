@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#999;
+
+	}
+.aa{
+	width:1100px;
+	height:100%;
+	margin:0 auto;
+	}
+.vv{
+	height:50px;
+}
+.bb{
+	width:1100px;
+	height:60px;
+	margin:0 auto;
+	padding:0 auto;
+	}
+.cc{
+	width:1100px;
+	height:100px;
+	margin:0 auto;
+	padding:0 auto;
+	
+	}
+.dd{
+	width:1100px;
+	height:220px;
+	margin:0 auto;
+	padding:0 auto;	
+    }
+.dd img{
+	width:170px;
+	height:98px;
+	margin:0 auto;
+	padding:0 auto;
+	float:left;
+}
+
+.ee{
+	width:1100px;
+	height:320px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.ee img{
+	width:350px;
+	height:196px;
+	float:left;
+	padding:2px 2px;
+	}
+.ff{
+	width:1100px;
+	height:100px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.gg{
+	width:1100px;
+	height:60px;
+	margin:0 auto;
+	padding:0 auto;
+	text-align:center;
+}
+
+
+
+

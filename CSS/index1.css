@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#999;
+	}
+.container{
+	width:1100px;
+	height:100%;
+	margin:0 auto;
+}
+.vgy{
+	width:1100px;
+	height:20px;
+}
+.header{
+	width:1100px;
+	height:100px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.logo{
+	width:263px;
+	height:90px;
+	float:left;
+}
+.select{
+	width:722px;
+	height:90px;
+	float:right;
+	text-align:right;
+}
+.select sel{
+	margin-top:20px;
+}
+.picture{
+	width:1100px;
+	height:345px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.picture img{
+	width:1100px;
+	height:345px;
+}
+.nav{
+	width:1100px;
+	height:20px;
+	margin:0 auto;
+    text-align:center;
+	font-size:21px;
+}
+.nav ul{
+	list-style:none;
+	background-color:#767373;
+	margin-bottom:0;
+}
+.nav li{
+	display:inline;
+	line-height:30px;
+	margin-right:85px;
+	
+}
+.nav a{
+	color:#0200FD;
+	text-decoration:none;
+	padding:0px 3px;
+	width:100px;
+	
+}
+.nav a:hover{
+	background-color:#FFFFFF;
+}
+.main{
+	width:1100px;
+	height:250px;
+	margin:0 auto;
+	padding:0 auto;
+}
+.left{
+	width:660px;
+	height:250px;
+	float:left;
+}
+.left h1{
+	font-size:20px;
+	color:#000000;
+}
+.left img{
+	width:190px;
+	height:160px;
+	float:left;
+    padding:2px 7px;
+}
+.right{
+	width:290px;
+	height:250px;
+	float:right;
+}
+.right h2{
+	font-size:20px;
+	color:#000000;
+}
+.right ul{
+	list-style:none;
+}
+.footer{
+	width:1100px;
+	height:40px;
+	margin:0 auto;
+	padding:0 auto;
+	text-align:center;
+}
